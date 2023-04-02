@@ -12,7 +12,7 @@ const Navigation = () => {
         { id: 4, name: 'Contact', link: '/contact' },
       ];
     return (
-        <div className="bg-slate-600 ">
+        <div className="bg-slate-600">
              <div onClick={() => setOpen(!open)} className="w-9 md:hidden">
         {open ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>}
       </div>
